@@ -28,12 +28,12 @@ int * setNumbers(){
 		// Prompt to enter a number between 1 and 49
 		printf("Please enter a number (1-49): ");
 		// Get input number
-		scanf("%d", chosenNumbers[i]);
+		scanf("%d", &chosenNumbers[i]);
 		// Check if the number is between 1 and 49
 		while(chosenNumbers[i] < 1 || chosenNumbers[i] > 49){
 			// prompt again
 			printf("Please let it between 1 and 49: ");
-			scanf("%d", chosenNumbers[i]);
+			scanf("%d", &chosenNumbers[i]);
 		}
 	}
 	// Return the array
