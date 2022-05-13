@@ -4,9 +4,9 @@
 
 /*
  * This console program is made in 2 steps:
- * 		1- Input 6 lotery numbers between 1 and 49
- * 		2- Print all numbers from 1 to 49
- * 			When it's a winning number, add a "*" after the number
+ * 		1- Input 6 different lotery numbers between 1 and 49
+ * 		2- Generate 6 different winning numbers between 1 and 49
+ * 		3- Compare lotery numbers & winning numbers and count the matching numbers
 */
 
 void goLotery(int loteryNumbers[], int winningNumbers[]);
